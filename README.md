@@ -40,11 +40,11 @@ http://www.thescoremusic.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/1.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/home.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/2.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/tour.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 

@@ -1,5 +1,22 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  padding: 0px;
+  margin: 0px;
 }
 
+body{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+#topsection #front{
+  width: 100%;
+  
+}
+#topsection #logo{
+  size: cover;
+}
