@@ -3,20 +3,111 @@
   box-sizing:border-box;  
   padding: 0px;
   margin: 0px;
+  font-family: "score";
+}
+
+@font-face{
+  font-family: 'score';
+  src: url(../assets/scorefont.ttf);
+  font-style: normal;
+  font-weight: 100;
 }
 
 body{
-  background-image: url("../images/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-attachment: fixed;
+  box-sizing: border-box;
+  z-index: -1; 
+  background-color: black;
 }
 
-#topsection #front{
-  width: 100%;
-  
+h1{
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 2.125em;
 }
-#topsection #logo{
-  size: cover;
+
+h3{
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+
+section:nth-child(1){
+  background-image: linear-gradient(0deg, rgba(0 0 0 / 1) 0%, rgba(0 0 0 / .1) 30%);
+  z-index: 10;
+}
+
+img:nth-child(1){
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+
+img:nth-child(2){
+  position: absolute;
+  width: 100%;
+  top: 15em;
+  left: .9em;
+}
+
+section:nth-child(2){
+  margin: 6em 1em 0 1em;
+  height: 25em;
+  border: 1px solid white;
+}
+section:nth-child(2) img{
+  position: relative;
+  width: 70%;
+  left: 15%;
+  top: -5em;
+  z-index: 1;
+}
+
+
+section:nth-child(2) p{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+
+}
+h3:nth-child(1){
+  top: 0;
+  margin: 0;
+}
+
+span:nth-child(1){
+  border: 1px solid white;
+  padding: .5em .5em .5em .5em;
+}
+
+section:nth-child(3) img{
+  width: 40%;
+  left: 30%;
+}
+
+video{
+  width: 100%;
+}
+
+section:nth-child(4) img{
+  width: 40%;
+  left: 30%;
+}
+
+h2{
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 4em;
+}
+
+p{
+
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  margin-top: .5em;
+
 }

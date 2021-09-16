@@ -82,12 +82,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| Jogge	         | Maeren             | Leo          | Timo             |
+| Html Structuur | Nette Html         | Animaties    | Responsiveness   |
+| Positioneren   | Css positioneren   | Positioneren | Positionering    |
+             			      | Info opslaan |			
+	     
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
