@@ -82,11 +82,10 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Jogge	         | Maeren             | Leo          | Timo             |
-| Html Structuur | Nette Html         | Animaties    | Responsiveness   |
-| Positioneren   | Css positioneren   | Positioneren | Positionering    |
-             			      | Info opslaan |			
-	     
+Joppe: Html structuur & Positionering
+Maeren: Nette html & Css positionering
+Leo: Animaties, Positioneren en Info opslaan
+Timo: Responsiveness & Positionering
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
