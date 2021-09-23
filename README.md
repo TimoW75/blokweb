@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
@@ -32,7 +32,7 @@ responsive
 
 ## Je website
 
-<details open>
+<details>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
@@ -99,11 +99,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week heb ik vooral gekeken naar 1 stukje op mijn site. Dit gaat over het stukjes waar de nieuwste single van de band wordt laten zien. Dit vond ik erg lastig omdat deze er heel anders uitziet op dekstop dan op mobiel. Ik had hier moeite mee omdat dit de eerste keer was dat ik media query's ging gebruiken. Zie hieronder de code:
+<img src="images/singleklein.JPG" width="375px" alt="single klein">
+<img src="images/singlegroot.JPG" width="375px" alt="bsingle groot">
 
 
 ### Agenda voor meeting
