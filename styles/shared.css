@@ -1,0 +1,88 @@
+/* CSS Document */
+*, *::after, *::before {
+    box-sizing:border-box;  
+    padding: 0px;
+    margin: 0px;
+    font-family: "score";
+  
+    --textColor:white;
+    --bgColor:black;
+    --borderColor:white;
+}
+  
+  
+  @font-face{
+    font-family: 'score';
+    src: url(../assets/scorefont.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@media (min-width:40em) { 
+    body {
+       background-image: url(../images/bg.jpg); 
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+}
+
+  body{
+    box-sizing: border-box;
+    background-color:var(--bgColor);
+}
+
+h1{
+    text-transform: uppercase;
+    color:var(--textColor);
+    text-align: center;
+    font-size: 2em;
+}
+
+h2{
+    color: var(--textColor);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 3em;
+  }
+
+h3{
+    text-transform: uppercase;
+    color:var(--textColor);
+    text-align: center;
+    font-size: 1em;
+}
+p{
+    color: var(--textColor);
+    font-size: 1em;
+    text-align: center;
+    margin-top: .5em;
+}
+
+main{
+    justify-self: center;
+}
+
+
+
+    section:nth-child(1) img:nth-child(1) {
+       display: block; 
+    }
+ 
+    section:nth-child(1) img:nth-child(2) {
+        display: none; 
+    }
+
+
+@media (min-width:40em) { 
+        section:nth-child(1) img:nth-child(1) {
+           display: none; 
+        }
+
+        section:nth-child(1) img:nth-child(2) {
+            display: block; 
+        }
+
+    section:nth-child(1)img:nth-child(3) { 
+        grid-template-columns: 1fr 1fr; 
+    } 
+}

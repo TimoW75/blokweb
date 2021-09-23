@@ -1,0 +1,175 @@
+
+/*Stijlen van sections */
+
+/* Section 1  */
+
+
+section:nth-child(1){
+    background-image: linear-gradient(0deg, rgba(0 0 0 / 1) 0%, rgba(0 0 0 / .1) 30%);
+    z-index: 10;
+}
+
+section:nth-child(1) img:nth-child(1){
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }
+  
+  section:nth-child(1) img:nth-child(2){
+    position: relative;
+    z-index: -1;
+    width: 100%;
+  }  
+
+section:nth-child(1) img:nth-child(3){
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 0;
+    max-width: 500px;
+  }
+  
+/* Section 2  */
+section:nth-child(2){
+    padding: 3em 3em 3em 3em ;
+    border: 1px solid var(--borderColor);  
+    position: relative; 
+    width: 60%;
+    margin:12em auto 6em auto;    
+    
+}
+
+@media (min-width:1em) { 
+    section:nth-child(2) { 
+        background-color: transparent;
+    } 
+}
+
+@media (min-width:40em) { 
+    section:nth-child(2) { 
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 20% min-content 1fr;
+       background-color: var(--bgColor);
+        width: 50%;
+        min-width: 80%;
+        max-width: 90%;
+    } 
+    section:nth-child(2) img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+}
+
+
+
+section:nth-child(2) h3{
+    margin-top: 1em;
+}
+
+section:nth-child(2) h1{
+    margin-top: 0;
+}
+
+section:nth-child(2) p {
+    font-size:1em;
+    margin-top: 1em;
+}
+
+
+section:nth-child(2) span{
+    border: 1px solid var(--borderColor);
+    padding: .5em .5em .5em .5em;
+}
+
+
+section:nth-child(2) img {
+        display: block;
+        position: absolute;
+        top: -30%;
+        left: 50%;
+        max-height: 100%;
+        max-width: 100%;
+        transform: translate(-50%, -50%);
+  }
+
+@media (min-width:40em) { 
+    section:nth-child(2) img{ 
+        top: 0;
+        left:0;
+        position: relative;
+        transform: none;
+    } 
+}
+
+/* Section 3 */
+
+section:nth-child(3){ 
+    padding: 0 5em 0 5em ;
+    position: relative; 
+    width: 90%;
+    margin:0 auto 0 auto;
+    max-width: 300px;
+}
+
+section:nth-child(3) img{
+    position: relative;
+    width: 100%;
+}
+
+video{
+    width: 100%;
+}
+
+/* Secion 4 */
+
+section:nth-child(4){  
+    padding: 0 5em 0 5em ;
+    position: relative; 
+    width: 90%;
+    margin: 5em auto 0 auto;
+    max-width: 300px;
+}
+
+section:nth-child(4) img{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+/* Section 5  tour dates */
+section:nth-child(5){
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width:40em) { section:nth-child(5) { grid-template-columns: 1fr 1fr; } }
+
+article:nth-of-type(2n){
+    justify-content: left;
+}
+
+section:nth-child(5) span{ 
+    border: 1px solid var(--borderColor);
+    padding: .5em .5em .5em .5em;
+    margin-top: 13em;
+}
+
+/* Section 8 */
+
+section:nth-child(6){ 
+    padding: 5em 5em 5em 5em ;
+    position: relative; 
+    width: 90%;
+    margin:6em auto 6em auto;
+    max-width: 300px;
+}
+
+section:nth-child(6) img{
+    position: relative;
+    width: 100%;
+}
+  
+  

@@ -1,0 +1,7 @@
+
+section:nth-child(3){
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width:40em) { section:nth-child(3) { grid-template-columns: 1fr 1fr; } }
