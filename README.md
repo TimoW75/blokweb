@@ -106,7 +106,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Deze week heb ik vooral gekeken naar 1 stukje op mijn site. Dit gaat over het stukjes waar de nieuwste single van de band wordt laten zien. Dit vond ik erg lastig omdat deze er heel anders uitziet op dekstop dan op mobiel. Ik had hier moeite mee omdat dit de eerste keer was dat ik media query's ging gebruiken. Zie hieronder de code:
 <img src="images/singleklein.JPG" width="375px" alt="single klein">
 <img src="images/singlegroot.JPG" width="375px" alt="bsingle groot">
-
+Code:
+<img src="images/codesingle.JPG" width="375px" alt="bsingle groot">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
