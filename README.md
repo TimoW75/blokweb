@@ -32,7 +32,7 @@ responsive
 
 ## Je website
 
-<details open>
+<details>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
@@ -76,7 +76,12 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb er deze week voor gezorgd dat alle html aanwezig is op de pagina. Alle content staat erin en ik ben al begonnen met het stylen van de pagina.
+Ik zat wel vast bij het maken van de linear gradient over de bakcground image heen. Ik heb uiteindelijk hulp gezocht en toen is het gelukt. 
+Het werkte uiteindelijk niet omdat ik een spatie teveel had neergezet. Dit had ik zelf niet gezien en daarom begreep ik het niet.
+Hieronder de bijbetrefende code:
+<img src="images/gradientcode.JPG"width="375px" alt="code linear gradient">
+
 
 
 ### Agenda voor meeting
@@ -99,7 +104,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
