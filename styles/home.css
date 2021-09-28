@@ -1,4 +1,66 @@
 
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: absolute;
+   
+}
+
+header img:nth-child(1){
+    width: 20px;
+    position: relative;
+    top: 2.5em;
+    left: 1em;
+    grid-row-end: 1;
+}
+
+
+
+header figure{
+    display: none;
+}
+
+@media (min-width:40em) { 
+    header figure{
+      position: relative; 
+      display: block;
+      grid-row-end: 1;
+    }
+
+    header figcaption{
+      color: white; 
+      font-size: 1.5em;
+    }
+}
+
+
+
+
+ /* Achtergrond */
+ section:nth-child(1) img:nth-child(1) {
+       display: block; 
+    }
+ 
+    section:nth-child(1) img:nth-child(2) {
+        display: none; 
+    }
+
+
+@media (min-width:40em) { 
+        section:nth-child(1) img:nth-child(1) {
+           display: none; 
+        }
+
+        section:nth-child(1) img:nth-child(2) {
+            display: block; 
+        }
+
+    section:nth-child(1)img:nth-child(3) { 
+        grid-template-columns: 1fr 1fr; 
+    } 
+}
+
 /*Stijlen van sections */
 
 /* Section 1  */
@@ -31,19 +93,13 @@ section:nth-child(1) img:nth-child(3){
   
 /* Section 2  */
 section:nth-child(2){
-    padding: 3em 3em 3em 3em ;
+    padding:6em 5em 6em 5em;
     border: 1px solid var(--borderColor);  
     position: relative; 
-    width: 60%;
+    width: 90%;
     margin:12em auto 6em auto;    
-    
 }
 
-@media (min-width:1em) { 
-    section:nth-child(2) { 
-        background-color: transparent;
-    } 
-}
 
 @media (min-width:40em) { 
     section:nth-child(2) { 
@@ -62,22 +118,6 @@ section:nth-child(2){
     }
 }
 
-
-
-section:nth-child(2) h3{
-    margin-top: 1em;
-}
-
-section:nth-child(2) h1{
-    margin-top: 0;
-}
-
-section:nth-child(2) p {
-    font-size:1em;
-    margin-top: 1em;
-}
-
-
 section:nth-child(2) span{
     border: 1px solid var(--borderColor);
     padding: .5em .5em .5em .5em;
@@ -85,13 +125,14 @@ section:nth-child(2) span{
 
 
 section:nth-child(2) img {
-        display: block;
-        position: absolute;
-        top: -30%;
-        left: 50%;
-        max-height: 100%;
-        max-width: 100%;
-        transform: translate(-50%, -50%);
+    display: block;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    width: 60%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: translate(-50%, -50%);
   }
 
 @media (min-width:40em) { 
@@ -105,21 +146,32 @@ section:nth-child(2) img {
 
 /* Section 3 */
 
-section:nth-child(3){ 
+section:nth-child(3){  
     padding: 0 5em 0 5em ;
     position: relative; 
     width: 90%;
-    margin:0 auto 0 auto;
+    margin: 5em auto 0 auto;
     max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
+
+section:nth-child(3) h1{
+    order: 2;
+}
+
 
 section:nth-child(3) img{
     position: relative;
     width: 100%;
+    max-width: 300px;
+    order: 1;
 }
 
 video{
     width: 100%;
+    order: 3;
+    justify-self: center;
 }
 
 /* Secion 4 */
@@ -130,12 +182,20 @@ section:nth-child(4){
     width: 90%;
     margin: 5em auto 0 auto;
     max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
+
+section:nth-child(4) h1{
+    order: 2;
+}
+
 
 section:nth-child(4) img{
     position: relative;
     width: 100%;
     max-width: 300px;
+    order: 1;
 }
 
 
@@ -156,6 +216,15 @@ section:nth-child(5) span{
     padding: .5em .5em .5em .5em;
     margin-top: 13em;
 }
+
+
+/* Section 6 */
+
+section:nth-child(6) span { 
+    border: 1px solid var(--borderColor);
+    padding: .5em .5em .5em .5em;
+}
+
 
 /* Section 8 */
 
