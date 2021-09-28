@@ -6,9 +6,11 @@
     font-family: "score";
   
     --textColor:white;
+    --textColo2:black;
     --bgColor:black;
+    --bgColor2:white;
     --borderColor:white;
-    --navBgColor: rgba(0 0 0 / 0.5)
+    --navBgColor: rgba(0 0 0 / 0.7)
 }
   
   @font-face{
@@ -26,12 +28,16 @@
     }
 }
 
+
 body{
   box-sizing: border-box;
   background-color:var(--bgColor);
   min-width: 350px ;
+  
 }
 
+
+ 
 main{
   justify-self: center;
   text-align: center;
@@ -42,24 +48,26 @@ main{
 
 /* Hamburger menu */
 
-header.toonMenu img:nth-child(1){
-  transform: translateX(14em);
+/* header.toonMenu img:nth-child(1){
+  transform: translateX(30%);
   transition:.5s;
-}
+} */
 
 nav{
   grid-row-start: 2;
 }
 
-
 nav ul { 
-  margin:0; 
-  padding:4em 0 0;
+  position:fixed;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
   background:var(--bgColor);
   list-style:none;
-  position:fixed;
-  width: 60%;
-  height: 100%;
+  width: 40%;
+  bottom: 0;
   top: 0;
   transform:translatex(-100%);
   transition:.5s;
@@ -68,19 +76,30 @@ nav ul {
 
 @media (min-width:40em) {
   nav ul {
-      width:30% ;
+      width:10% ;
       background:var(--navBgColor);
      }
  }
 
 
+ header img:first-of-type.toonMenu{
+   transform: translateX(15em);
+ }
+
 nav.toonMenu ul {
   transform:translatex(0);
 }
 
-nav li {
-  text-align: center;
-  align-items: center;
+nav li{
+  margin-top: 1em;
+}
+
+
+nav a{
+  font-size: 1.2em;
+  text-decoration: none;
+  color: var(--textColor);
+  text-transform: uppercase;
 }
 
 

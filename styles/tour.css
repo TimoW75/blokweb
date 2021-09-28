@@ -32,6 +32,8 @@ header figure{
       position: relative; 
       display: block;
       grid-row-end: 1;
+      justify-self: right;
+      margin-right: 5em;
     }
 
     header figcaption{
@@ -42,38 +44,42 @@ header figure{
 /****************************************************************/
 /* Eerste section */
 /****************************************************************/
-section:nth-child(1){
-    display: grid;
-    grid-template-columns: 1fr ;
-    margin-bottom: 20em;
-}
-
-
 @media (min-width:40em) { section:nth-child(1) { margin-bottom: 1em; } }
+
+section:nth-child(1){  
+    padding: 0 5em 0 5em ;
+    position: relative; 
+    width: 90%;
+    margin: 5em auto 0 auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 section:nth-child(1) h1{
     order: 2;
+    grid-row-start: 2;
 }
 
 section:nth-child(1) img{
     position: relative;
-    width: 40%;
-    max-width: 250px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 120px;
     order: 1;
+    justify-self: center;
 }
+
 
 /****************************************************************/
 /* Section 2  */
 /****************************************************************/
+
 
 section:nth-child(2){
     padding:6em 5em 6em 5em;
     border: 1px solid var(--borderColor);  
     position: relative; 
     width: 90%;
-    margin:6em auto 6em auto;    
+    margin:20em auto 6em auto;    
 }
 
 
@@ -83,9 +89,9 @@ section:nth-child(2){
        grid-template-columns: 1fr 1fr;
        grid-template-rows: 20% min-content 1fr;
        background-color: var(--bgColor);
-        width: 50%;
-        min-width: 80%;
-        max-width: 90%;
+       width: 40%;
+       min-width: 40%;
+       max-width: 50%;
     } 
     section:nth-child(2) img{
         grid-column-start: 1;
@@ -94,11 +100,23 @@ section:nth-child(2){
     }
 }
 
-section:nth-child(2) span{
-    border: 1px solid var(--borderColor);
-    padding: .5em .5em .5em .5em;
+section:nth-child(2) button{
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
 }
 
+section:nth-child(2) span{
+    padding: .6em .6em .6em .6em;
+    border: 1px solid var(--borderColor);
+}
+
+section:nth-child(2) span:hover{
+    background-color: var(--bgColor2);
+    color:var(--textColo2) ;
+}
 
 section:nth-child(2) img {
     display: block;
@@ -118,7 +136,6 @@ section:nth-child(2) img{
     transform: none;
 } 
 }
-
 /****************************************************************/
 /* Section 3  tour dates */
 /****************************************************************/

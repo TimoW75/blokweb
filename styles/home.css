@@ -1,3 +1,6 @@
+/****************************************************************/
+/* Header gedeelt */
+/****************************************************************/
 
 header{
     width: 100%;
@@ -16,7 +19,6 @@ header img:nth-child(1){
 }
 
 
-
 header figure{
     display: none;
 }
@@ -26,6 +28,8 @@ header figure{
       position: relative; 
       display: block;
       grid-row-end: 1;
+      justify-self: right;
+      margin-right: 5em;
     }
 
     header figcaption{
@@ -36,8 +40,10 @@ header figure{
 
 
 
-
+/****************************************************************/
  /* Achtergrond */
+ /****************************************************************/
+
  section:nth-child(1) img:nth-child(1) {
        display: block; 
     }
@@ -56,15 +62,15 @@ header figure{
             display: block; 
         }
 
-    section:nth-child(1)img:nth-child(3) { 
-        grid-template-columns: 1fr 1fr; 
-    } 
+         section:nth-child(1) img:nth-child(3) { 
+              grid-template-columns: 50% 50%; 
+        } 
 }
 
 /*Stijlen van sections */
-
+/****************************************************************/
 /* Section 1  */
-
+/****************************************************************/
 
 section:nth-child(1){
     background-image: linear-gradient(0deg, rgba(0 0 0 / 1) 0%, rgba(0 0 0 / .1) 30%);
@@ -90,14 +96,17 @@ section:nth-child(1) img:nth-child(3){
     left: 0;
     max-width: 500px;
   }
-  
+ 
+/****************************************************************/
 /* Section 2  */
+/****************************************************************/
+
 section:nth-child(2){
     padding:6em 5em 6em 5em;
     border: 1px solid var(--borderColor);  
     position: relative; 
     width: 90%;
-    margin:12em auto 6em auto;    
+    margin:20em auto 6em auto;    
 }
 
 
@@ -107,9 +116,10 @@ section:nth-child(2){
        grid-template-columns: 1fr 1fr;
        grid-template-rows: 20% min-content 1fr;
        background-color: var(--bgColor);
-        width: 50%;
-        min-width: 80%;
-        max-width: 90%;
+       width: 50%;
+       max-width: 60%;
+
+       margin:12em auto 6em auto;   
     } 
     section:nth-child(2) img{
         grid-column-start: 1;
@@ -118,55 +128,70 @@ section:nth-child(2){
     }
 }
 
-section:nth-child(2) span{
-    border: 1px solid var(--borderColor);
-    padding: .5em .5em .5em .5em;
+section:nth-child(2) button{
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
 }
 
+section:nth-child(2) span{
+    padding: .6em .6em .6em .6em;
+    border: 1px solid var(--borderColor);
+}
+
+section:nth-child(2) span:hover{
+    background-color: var(--bgColor2);
+    color:var(--textColo2) ;
+}
 
 section:nth-child(2) img {
     display: block;
     position: absolute;
-    top: -5%;
+    top: -30%;
     left: 50%;
-    width: 60%;
     max-height: 100%;
     max-width: 100%;
     transform: translate(-50%, -50%);
-  }
-
-@media (min-width:40em) { 
-    section:nth-child(2) img{ 
-        top: 0;
-        left:0;
-        position: relative;
-        transform: none;
-    } 
 }
 
+@media (min-width:40em) { 
+section:nth-child(2) img{ 
+    top: 0;
+    left:0;
+    position: relative;
+    transform: none;
+    min-width: 120px;
+} 
+}
+
+/****************************************************************/
 /* Section 3 */
+/****************************************************************/
 
 section:nth-child(3){  
     padding: 0 5em 0 5em ;
     position: relative; 
     width: 90%;
     margin: 5em auto 0 auto;
-    max-width: 300px;
+    max-width: 500px;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 section:nth-child(3) h1{
     order: 2;
+    grid-row-start: 2;
 }
-
 
 section:nth-child(3) img{
     position: relative;
-    width: 100%;
-    max-width: 300px;
+    width: 120px;
     order: 1;
+    justify-self: center;
 }
+
 
 video{
     width: 100%;
@@ -174,32 +199,36 @@ video{
     justify-self: center;
 }
 
+/****************************************************************/
 /* Secion 4 */
+/****************************************************************/
 
 section:nth-child(4){  
     padding: 0 5em 0 5em ;
     position: relative; 
     width: 90%;
     margin: 5em auto 0 auto;
-    max-width: 300px;
+    max-width: 500px;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 section:nth-child(4) h1{
     order: 2;
+    grid-row-start: 2;
 }
-
 
 section:nth-child(4) img{
     position: relative;
-    width: 100%;
-    max-width: 300px;
+    width: 120px;
     order: 1;
+    justify-self: center;
 }
 
-
+/****************************************************************/
 /* Section 5  tour dates */
+/****************************************************************/
+
 section:nth-child(5){
     display: grid;
     grid-template-columns: 1fr;
@@ -217,16 +246,27 @@ section:nth-child(5) span{
     margin-top: 13em;
 }
 
-
+/****************************************************************/
 /* Section 6 */
+/****************************************************************/
 
-section:nth-child(6) span { 
-    border: 1px solid var(--borderColor);
-    padding: .5em .5em .5em .5em;
+section:nth-child(6) button{
+    padding: .6em .6em .6em .6em;
+    background-color: var(--bgColor);
+    color: white;
+    text-transform: uppercase;
+}
+
+section:nth-child(6) button:hover{
+    background-color: var(--bgColor2);
+    color:var(--textColo2) ;
 }
 
 
-/* Section 8 */
+
+/****************************************************************/
+/* Section 6 */
+/****************************************************************/
 
 section:nth-child(6){ 
     padding: 5em 5em 5em 5em ;
@@ -241,4 +281,182 @@ section:nth-child(6) img{
     width: 100%;
 }
   
-  
+/****************************************************************/
+/* Section 7 */
+/****************************************************************/
+
+section:nth-child(7){  
+    padding: 0 5em 0 5em ;
+    position: relative; 
+    width: 90%;
+    margin: 5em auto 0 auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section:nth-child(7) h1{
+    order: 2;
+    grid-row-start: 2;
+}
+
+section:nth-child(7) img{
+    position: relative;
+    width: 120px;
+    order: 1;
+    justify-self: center;
+}
+
+
+/****************************************************************/
+/* Section 8 */
+/****************************************************************/
+
+section:nth-child(8){
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(150px, 180px) );
+    max-width: 900px;
+    justify-content: center;
+    margin: auto auto auto auto;
+}
+
+
+section:nth-child(8) img{
+    position: relative;
+    max-width: 100%;
+    order: 1;
+}
+
+section:nth-child(8) figure{
+    order: 3;
+    margin-top: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section:nth-child(8) figure:hover{
+    border: 2px solid red;
+}
+
+section:nth-child(8) figcaption{
+    color: var(--textColor);
+}
+
+/****************************************************************/
+/* Section 9 */
+/****************************************************************/
+
+section:nth-child(9){  
+    padding: 0 5em 0 5em ;
+    position: relative; 
+    width: 90%;
+    margin: 5em auto 0 auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section:nth-child(9) h1{
+    order: 2;
+    grid-row-start: 2;
+}
+
+section:nth-child(9) img{
+    position: relative;
+    width: 120px;
+    order: 1;
+    justify-self: center;
+}
+
+/****************************************************************/
+/* Section 10 */
+/****************************************************************/
+
+section:nth-child(10){
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(150px, 218px) );
+    max-width: 800px;
+    justify-content: center;
+    margin: 2em auto auto auto;
+}
+
+
+section:nth-child(10) img{
+    position: relative;
+    max-width: 100%;
+    order: 1;
+}
+
+section:nth-child(10) figure{
+    order: 3;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* section:nth-child(10) figcaption{
+    display: block;
+    color: var(--textColor);
+    position: relative;
+    font-size: 1em;
+    top: -25%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+} */
+
+
+/****************************************************************/
+/* Section 11 email updates */
+/****************************************************************/
+
+section:nth-child(11){  
+    padding: 0 5em 0 5em ;
+    position: relative; 
+    width: 90%;
+    margin: 5em auto 0 auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section:nth-child(11) h1{
+    order: 2;
+    grid-row-start: 2;
+}
+
+section:nth-child(11) img{
+    position: relative;
+    width: 120px;
+    order: 1;
+    justify-self: center;
+}
+
+/****************************************************************/
+/* Section 12 email updates 2 */
+/****************************************************************/
+
+form{
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    margin: auto auto auto auto;
+    justify-content: center;
+}
+
+form input{
+    background: transparent;
+    color: var(--textColor);
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid var(--borderColor);
+    margin-top: 2em;
+    font-size: 1em;
+
+}
+
+form input:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
