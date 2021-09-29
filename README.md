@@ -150,9 +150,13 @@ Opgelost door er een link van te maken.
 
 Before & After
 <img src="images/Beforemerch.JPG" width="375px" alt="before merch">
+
 <img src="images/aftermerch.JPG" width="375px" alt="after merch">
+
 <img src="images/beforetourdates.JPG" width="375px" alt="before tourdates">
+
 <img src="images/aftertourdates.JPG" width="375px" alt="after tourdates">
+
 
 Met de narrator gaat de site prima. 
 
