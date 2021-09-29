@@ -149,10 +149,10 @@ Sommige afbeeldingen of tekst kan niet geselecteerd worden door met tab te werke
 Opgelost door er een link van te maken.
 
 Before & After
-<img src="images/Beforemerch.JPG" width="375px" alt="before merch">
+<p><img src="images/Beforemerch.JPG" width="375px" alt="before merch"></p>
 
 
-<img src="images/aftermerch.JPG" width="375px" alt="after merch">
+<p><img src="images/aftermerch.JPG" width="375px" alt="after merch"></p>
 
 
 <img src="images/beforetourdates.JPG" width="375px" alt="before tourdates">
