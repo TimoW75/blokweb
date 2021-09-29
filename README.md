@@ -148,32 +148,12 @@ Het inschrijven voor de nieuwsbrief is erg lastig.
 Sommige afbeeldingen of tekst kan niet geselecteerd worden door met tab te werken
 Opgelost door er een link van te maken.
 
+Before: <img src="images/beforemerch.JPG" width="375px" alt="bsingle groot">
+After: <img src="images/aftermerch.JPG" width="375px" alt="bsingle groot">
+
 Met de narrator gaat de site prima. 
 
 
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
