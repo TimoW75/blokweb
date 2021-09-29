@@ -152,13 +152,13 @@ Before & After
 <p><img src="images/Beforemerch.JPG" width="375px" alt="before merch"></p>
 
 
-<img src="images/aftermerch.JPG" width="375px" alt="after merch">
+<p><img src="images/aftermerch.JPG" width="375px" alt="after merch"></p>
 
 
-<img src="images/beforetourdates.JPG" width="375px" alt="before tourdates">
+<p><img src="images/beforetourdates.JPG" width="375px" alt="before tourdates"></p>
 
 
-<img src="images/aftertourdates.JPG" width="375px" alt="after tourdates">
+<p><img src="images/aftertourdates.JPG" width="375px" alt="after tourdates"></p>
 
 
 
