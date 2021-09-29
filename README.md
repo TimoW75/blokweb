@@ -104,7 +104,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
@@ -126,11 +126,7 @@ Timo: Media query's<br>
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Werken aan media query's
 
 </details>
 
@@ -140,11 +136,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Toegankelijkheidstest (week 4)
 
-<details>
+<details open>
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+Het knopje van het hamburger menu is erg klein.
+De checkboxes zijn er klein
+Het inschrijven voor de nieuwsbrief is erg lastig.
+
+Sommige afbeeldingen of tekst kan niet geselecteerd worden door met tab te werken
+Opgelost door er een link van te maken.
+
+Met de narrator gaat de site prima. 
+
+
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
