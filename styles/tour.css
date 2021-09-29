@@ -186,3 +186,10 @@ section:nth-child(4) img{
     max-width: 300px;
     order: 1;
 }
+/****************************************************************/
+/* section 5 */
+/****************************************************************/
+section:nth-child(5){
+    max-width: 600px;
+    margin: auto auto auto auto;
+  }
