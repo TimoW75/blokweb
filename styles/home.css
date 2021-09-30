@@ -13,8 +13,6 @@ header{
 header img:nth-child(1){
     width: 20px;
     position: relative;
-    top: 2.5em;
-    left: 1em;
     grid-row-end: 1;
 }
 
@@ -26,11 +24,11 @@ header figure{
 @media (min-width:40em) { 
     header figure{
       position: relative; 
-      display: block;
-      grid-row-end: 1;
+      display: flex;
+      align-items: center;
       justify-self: right;
-      margin-right: 5em;
-    }
+      gap: .5em;
+   }
 
     header figcaption{
       color: white; 
@@ -75,41 +73,44 @@ header figure{
 section:nth-child(1){
     background-image: linear-gradient(0deg, rgba(0 0 0 / 1) 0%, rgba(0 0 0 / .1) 30%);
     z-index: 10;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
 }
 
 section:nth-child(1) img:nth-child(1){
     position: relative;
     z-index: -1;
     width: 100%;
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
   }
   
   section:nth-child(1) img:nth-child(2){
     position: relative;
     z-index: -1;
     width: 100%;
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
-
   }  
 
 section:nth-child(1) img:nth-child(3){
     position: absolute;
     width: 100%;
     top: 30%;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 500px;
   }
+
+  @media (min-width:40em) { 
+    section:nth-child(1) img:nth-child(3){
+        width: 60%;
+        top: 30vw;
+        left: 5em;
+        transform: translateY(-50%);
+  }
+}
  
 /****************************************************************/
 /* Section 2  */
 /****************************************************************/
 
 section:nth-child(2){
-    padding:6em 5em 6em 5em;
+    padding:6em 5em 0em 5em;
     border: 1px solid var(--borderColor);  
     position: relative; 
     width: 90%;
@@ -158,7 +159,7 @@ section:nth-child(2) img {
     top: -30%;
     left: 50%;
     max-height: 100%;
-    max-width: 100%;
+    max-width: 150%;
     transform: translate(-50%, -50%);
 }
 
@@ -169,6 +170,7 @@ section:nth-child(2) img{
     position: relative;
     transform: none;
     min-width: 120px;
+    margin-top: -10em;
 } 
 }
 
@@ -253,7 +255,7 @@ section:nth-child(5) a{
 }
 
 /****************************************************************/
-/* Section 6 */
+/* Section 6 view all dates*/ 
 /****************************************************************/
 
 section:nth-child(6) button{
@@ -277,10 +279,7 @@ section:nth-child(6){
     max-width: 300px;
 }
 
-section:nth-child(6) img{
-    position: relative;
-    width: 100%;
-}
+
   
 /****************************************************************/
 /* Section 7 */
@@ -377,20 +376,21 @@ section:nth-child(9) img{
 
 section:nth-child(10){
     display: grid;
-    grid-template-columns: repeat( auto-fill, minmax(150px, 218px) );
-    max-width: 800px;
+    grid-template-columns: repeat( auto-fill, minmax(150px, 300px) );
     justify-content: center;
     margin: 2em auto auto auto;
+    /* max-width: 800px; */
 }
 
 
 section:nth-child(10) img{
     position: relative;
-    max-width: 100%;
+    width: 100%;
     order: 1;
+    overflow: hidden;
 }
 
-section:nth-child(10) figure{
+section:nth-child(10) a{
     order: 3;
     margin-left: 1em;
     margin-right: 1em;
@@ -408,12 +408,36 @@ section:nth-child(10) figure{
     overflow: hidden;
 } */
 
+/****************************************************************/
+/* Section 11 */
+/****************************************************************/
+section:nth-child(11) button{
+    padding: .6em .6em .6em .6em;
+    background-color: var(--bgColor);
+    color: white;
+    text-transform: uppercase;
+}
+
+section:nth-child(11) button:hover{
+    background-color: var(--bgColor2);
+    color:var(--textColo2) ;
+}
+
+
+section:nth-child(11){ 
+    padding: 5em 5em 5em 5em ;
+    position: relative; 
+    width: 90%;
+    margin:auto auto auto auto;
+    max-width: 300px;
+}
+
 
 /****************************************************************/
-/* Section 11 email updates */
+/* Section 12 email updates */
 /****************************************************************/
 
-section:nth-child(11){  
+section:nth-child(12){  
     padding: 0 5em 0 5em ;
     position: relative; 
     width: 90%;
@@ -423,12 +447,12 @@ section:nth-child(11){
     grid-template-columns: 1fr;
 }
 
-section:nth-child(11) h1{
+section:nth-child(12) h1{
     order: 2;
     grid-row-start: 2;
 }
 
-section:nth-child(11) img{
+section:nth-child(12) img{
     position: relative;
     width: 120px;
     order: 1;
@@ -436,10 +460,10 @@ section:nth-child(11) img{
 }
 
 /****************************************************************/
-/* Section 12 email updates 2 */
+/* Section 13 email updates 2 */
 /****************************************************************/
 
-section:nth-child(12){
+section:nth-child(13){
     max-width: 600px;
     margin: auto auto auto auto;
   }

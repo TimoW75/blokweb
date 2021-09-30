@@ -29,6 +29,7 @@
 }
 
 
+
 body{
   box-sizing: border-box;
   background-color:var(--bgColor);
@@ -43,30 +44,27 @@ main{
   text-align: center;
 }
 
-/* iconen bovenin */
+
+
 
 
 /* Hamburger menu */
-
-/* header.toonMenu img:nth-child(1){
-  transform: translateX(30%);
-  transition:.5s;
-} */
 
 nav{
   grid-row-start: 2;
 }
 
-nav ul { 
+nav ul:first-of-type { 
   position:fixed;
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
 
   background:var(--bgColor);
   list-style:none;
-  width: 40%;
+  width: 60%;
   bottom: 0;
   top: 0;
   transform:translatex(-100%);
@@ -75,18 +73,22 @@ nav ul {
 }
 
 @media (min-width:40em) {
-  nav ul {
-      width:10% ;
+  nav ul:first-of-type {
+      width:40% ;
       background:var(--navBgColor);
      }
  }
 
 
  header img:first-of-type.toonMenu{
-   transform: translateX(15em);
+   transform: translateX(20em);
  }
 
-nav.toonMenu ul {
+nav.toonMenu ul:first-of-type {
+  transform:translatex(0);
+}
+
+nav.toonMenu ul:nth-child(2){
   transform:translatex(0);
 }
 
@@ -94,15 +96,32 @@ nav li{
   margin-top: 1em;
 }
 
-
-nav a{
+nav a:first-of-type{
   font-size: 1.2em;
   text-decoration: none;
   color: var(--textColor);
   text-transform: uppercase;
 }
 
+nav ul:nth-child(2) { 
+  position:fixed;
+  display: grid;
 
+  grid-template-columns: 10% 10% 10% 10% 10%;
+  list-style:none;
+  top: 65%;
+  transform:translatex(-100%);
+  transition:.5s;
+  z-index:50;
+}
+
+nav ul:nth-child(2) li{
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  
+}
+
+/* General stuff */
 h1{
     text-transform: uppercase;
     color:var(--textColor);
@@ -130,7 +149,9 @@ p{
     margin-top: .5em;
 }
 
-
+/****************************************************************/
+/* Form */
+/****************************************************************/
 
 form{
   position: relative;
@@ -142,7 +163,6 @@ form{
 }
 
 @media (min-width:40em) { form{ width: 50%; } }
-
 
 form input{
   background: transparent;
@@ -161,7 +181,6 @@ form input{
 form input:focus:nth-child(1){
   outline: none;    
 } 
-
 
 form input:focus:nth-child(2){
   outline: none;    
@@ -226,4 +245,26 @@ form span{
 
 form span:hover{
   background-color:#222222;
+}
+
+
+/****************************************************************/
+/* Footer */
+/****************************************************************/
+
+footer img{
+  width: 20px;
+  margin: 0;
+}
+
+footer ul:nth-child(1){
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer li{
+  list-style-type: none;
+  margin-right: .5em;
+  margin-left: .5em;
 }
