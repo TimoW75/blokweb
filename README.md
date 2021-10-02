@@ -256,7 +256,7 @@ Eerste section
 <p><img src="images/indexmobile.png" width="375px" alt="eindresultaat mobile"></p>
 
 
-<p><img src="images/tourdesktop.png" width="375px" alt="eindresultaat tour dekstop"></p>
+<p><img src="images/tourdekstop.png" width="375px" alt="eindresultaat tour dekstop"></p>
 
 
 <p><img src="images/tourmob.png" width="375px" alt="einresultaat tour mobile"></p>
