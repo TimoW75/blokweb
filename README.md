@@ -136,7 +136,7 @@ Werken aan media query's
 
 ## Toegankelijkheidstest (week 4)
 
-<details open>
+<details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
@@ -174,21 +174,42 @@ Met de narrator gaat de site prima.
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb deze week gewerkt aan het hamburger menu. Ik had een paar problemen met het meegegevn dan de  styling aangezien de styling ook werd opgepakt door andere stukken in de html. 
+Uiteindelijk is dit wel gelukt. Hieronder een screenshot van de code.
+Ook heb ik gewerkt aan de footer. Hieronder ook een paar screenshots.
 
+
+<p><img src="images/form1.JPG" width="375px" alt="before merch"></p>
+
+
+<p><img src="images/form2.JPG" width="375px" alt="after merch"></p>
+
+
+<p><img src="images/footer.JPG" width="375px" alt="before tourdates"></p>
+
+
+<p><img src="images/footerhtmls.JPG" width="375px" alt="after tourdates"></p>
+
+
+<p><img src="images/hamburger1.JPG" width="375px" alt="after merch"></p>
+
+
+<p><img src="images/nav2.JPG" width="375px" alt="before tourdates"></p>
+
+
+<p><img src="images/navhtmls.JPG" width="375px" alt="after tourdates"></p>
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Joppe: Html structuur & Positionering<br>
+Maeren: Nette html & Css positionering<br>
+Leo: Animaties, Positioneren en Info opslaan<br>
+Timo: Responsiveness & Positionering<br>
 
 
 ### Verslag van meeting

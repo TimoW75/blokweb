@@ -1,67 +1,84 @@
+/* header*/
 
 header{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 25% 50% 25% ;
-   
-}
-
-
-header img:nth-child(1){
+    grid-template-columns: 25% 50% 25%;
+    position: relative;
+    top: 0;
+  }
+  
+  header button:first-child{
+    position: relative;
+    grid-row-end: 1;
+    left: 1em;
+    z-index: 100;
+    border: none;
+    background:var(--bgTransparent);
+  }
+  
+  header button:first-child img{
     width: 20px;
     position: relative;
-    top: 2.5em;
+    display: flex;
+    grid-row-end: 1;
     left: 1em;
-    grid-row-end: 1;
-}
+    z-index: 100;
+    margin-right: 1em;
+    justify-content: left;
+    justify-self: left;
+    text-align: left;
+  }
+  
+  header button:nth-child(2){
+    position: relative; 
+    border: none;
+    background:var(--bgTransparent);
+  }
 
-header img:nth-child(2){
-    width: 100%;
-    max-width: 200px;
-    margin-right: auto;
-    margin-left: auto;
-    grid-row-end: 1;
-}
+  header button:nth-child(2) a{
+    display: flex;
+    justify-content: center;
+  }
 
-header figure{
+
+  header button:nth-child(2) img{
+    width: 20%;
+    position: relative;
+    display: flex;
+    z-index: 100;
+    margin-top: -2em;
+  }
+
+  header figure{
     display: none;
-}
+  }
+  
+  
+  header figure img{
+    width: 20px;
+  }
+  
 
-@media (min-width:40em) { 
-    header figure{
-      position: relative; 
-      display: block;
-      grid-row-end: 1;
-      justify-self: right;
-      margin-right: 5em;
-    }
-
-    header figcaption{
-      color: white; 
-      font-size: 1.5em;
-    }
-}
 /****************************************************************/
 /* Eerste section */
 /****************************************************************/
 @media (min-width:40em) { section:nth-child(1) { margin-bottom: 1em; } }
 
-section:nth-child(1){  
+main section:nth-child(1){  
     padding: 0 5em 0 5em ;
     position: relative; 
     width: 90%;
-    margin: 5em auto 0 auto;
+    margin: 6em auto 0 auto;
     max-width: 500px;
     display: grid;
     grid-template-columns: 1fr;
 }
 
-section:nth-child(1) h1{
+main section:nth-child(1) h1{
     order: 2;
     grid-row-start: 2;
 }
 
-section:nth-child(1) img{
+main section:nth-child(1) img{
     position: relative;
     width: 120px;
     order: 1;
@@ -74,33 +91,33 @@ section:nth-child(1) img{
 /****************************************************************/
 
 
-section:nth-child(2){
+main section:nth-child(2){
     padding:6em 5em 6em 5em;
     border: 1px solid var(--borderColor);  
     position: relative; 
     width: 90%;
-    margin:20em auto 6em auto;    
+    margin:2em auto 6em auto;    
 }
 
-
 @media (min-width:40em) { 
-    section:nth-child(2) { 
+    main section:nth-child(2) { 
        display: grid;
        grid-template-columns: 1fr 1fr;
        grid-template-rows: 20% min-content 1fr;
        background-color: var(--bgColor);
-       width: 40%;
-       min-width: 40%;
-       max-width: 50%;
+       max-width: 800px;
+       min-width: 600px;
+       margin:12em auto 6em auto;   
+       padding:6em 5em 0em 5em;
     } 
-    section:nth-child(2) img{
+    main section:nth-child(2) img{
         grid-column-start: 1;
         grid-row-start: 1;
         grid-row-end: 4;
     }
 }
 
-section:nth-child(2) button{
+main section:nth-child(2) button{
     background-color: var(--bgColor);
     color: var(--textColor);
     text-transform: uppercase;
@@ -108,65 +125,104 @@ section:nth-child(2) button{
     height: 50px;
 }
 
-section:nth-child(2) span{
+main section:nth-child(2) span{
     padding: .6em .6em .6em .6em;
     border: 1px solid var(--borderColor);
 }
 
-section:nth-child(2) span:hover{
+main section:nth-child(2) span:hover{
     background-color: var(--bgColor2);
     color:var(--textColo2) ;
 }
 
-section:nth-child(2) img {
+main section:nth-child(2) img {
     display: block;
     position: absolute;
     top: -30%;
     left: 50%;
     max-height: 100%;
-    max-width: 100%;
+    max-width: 150%;
     transform: translate(-50%, -50%);
 }
 
 @media (min-width:40em) { 
-section:nth-child(2) img{ 
+main section:nth-child(2) img{ 
     top: 0;
     left:0;
     position: relative;
     transform: none;
+    min-width: 120px;
+    margin-top: -10em;
 } 
 }
 /****************************************************************/
-/* Section 3  tour dates */
+/* Section 3   */
 /****************************************************************/
 
-section:nth-child(3){
-    display: grid;
-    grid-template-columns: 1fr;
-}
+section:nth-child(3) button{
+    background: var(--bgvar(--bgTransparent));
 
-@media (min-width:40em) { section:nth-child(3) { grid-template-columns: 1fr 1fr; } }
-
-section:nth-child(3) article:nth-of-type(2n){
-    justify-content: left;
+    border: none; 
+    text-align: left;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 700;
 }
 
 section:nth-child(3) span { 
-    border: 1px solid var(--borderColor);
-    padding: .5em .5em .5em .5em;
+    border: 1px solid var(--redBorder);
+    background: var(--bgColor);
+    color: var(--textColor);
+    padding: .7em 6em .7em 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
 
+section:nth-child(3) span:hover { 
+    background: var(--bgRed);
+    color: var(--textColo2);
+}
+
+
 /****************************************************************/
-/* section 4 */
+/* section 4 tour dates */
 /****************************************************************/
 
-section:nth-child(4){  
+
+section:nth-child(4){
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width:40em) { 
+    section:nth-child(4) {
+         grid-template-columns: 1fr 1fr; 
+    } 
+    article:nth-of-type(1n){
+        position: relative;
+        right: -20%;
+
+    }
+    article:nth-of-type(2n){
+    justify-self: left;
+    }
+}
+
+section:nth-child(4) a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+
+/****************************************************************/
+/* section 5 */
+/****************************************************************/
+
+main section:nth-child(5){  
     padding: 0 5em 0 5em ;
     justify-content: center;
     width: 90%;
@@ -176,20 +232,20 @@ section:nth-child(4){
     grid-template-columns: 1fr;
 }
 
-section:nth-child(4) h1{
+main section:nth-child(5) h1{
     order: 2;
 }
 
-section:nth-child(4) img{
+main section:nth-child(5) img{
     position: relative;
     width: 100%;
     max-width: 300px;
     order: 1;
 }
 /****************************************************************/
-/* section 5 */
+/* section 6 */
 /****************************************************************/
-section:nth-child(5){
-    max-width: 600px;
+section:nth-child(6){
+    max-width: 800px;
     margin: auto auto auto auto;
   }
