@@ -183,25 +183,25 @@ Uiteindelijk is dit wel gelukt. Hieronder een screenshot van de code.
 Ook heb ik gewerkt aan de footer. Hieronder ook een paar screenshots.
 
 
-<p><img src="images/form1.JPG" width="375px" alt="before merch"></p>
+<p><img src="images/form1.JPG" width="375px" alt="before form1"></p>
 
 
-<p><img src="images/form2.JPG" width="375px" alt="after merch"></p>
+<p><img src="images/form2.JPG" width="375px" alt="after form2"></p>
 
 
-<p><img src="images/footer.JPG" width="375px" alt="before tourdates"></p>
+<p><img src="images/footer.JPG" width="375px" alt="before footer css"></p>
 
 
-<p><img src="images/footerhtml.JPG" width="375px" alt="after tourdates"></p>
+<p><img src="images/footerhtml.JPG" width="375px" alt="after footer html"></p>
 
 
-<p><img src="images/hamburger1.JPG" width="375px" alt="after merch"></p>
+<p><img src="images/hamburger1.JPG" width="375px" alt="after hamburger menu 1"></p>
 
 
-<p><img src="images/nav2.JPG" width="375px" alt="before tourdates"></p>
+<p><img src="images/nav2.JPG" width="375px" alt="hamburger menu 2"></p>
 
 
-<p><img src="images/navhtmls.JPG" width="375px" alt="after tourdates"></p>
+<p><img src="images/navhtml.JPG" width="375px" alt="html nav"></p>
 
 ### Agenda voor meeting
 samen met je groepje opstellen
