@@ -250,16 +250,16 @@ Eerste section
 
 ### Screenshot(s)
 
-<p><img src="images/indexdesktop.JPG" width="375px" alt="eindresultaat dekstop"></p>
+<p><img src="images/indexdesktop.PNG" width="375px" alt="eindresultaat dekstop"></p>
 
 
-<p><img src="images/indexmobile.JPG" width="375px" alt="eindresultaat mobile"></p>
+<p><img src="images/indexmobile.PNG" width="375px" alt="eindresultaat mobile"></p>
 
 
-<p><img src="images/tourdesktop.JPG" width="375px" alt="eindresultaat tour dekstop"></p>
+<p><img src="images/tourdesktop.PNG" width="375px" alt="eindresultaat tour dekstop"></p>
 
 
-<p><img src="images/tourmob.JPG" width="375px" alt="einresultaat tour mobile"></p>
+<p><img src="images/tourmob.PNG" width="375px" alt="einresultaat tour mobile"></p>
 
 </details>
 
