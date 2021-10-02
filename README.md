@@ -192,7 +192,7 @@ Ook heb ik gewerkt aan de footer. Hieronder ook een paar screenshots.
 <p><img src="images/footer.JPG" width="375px" alt="before tourdates"></p>
 
 
-<p><img src="images/footerhtmls.JPG" width="375px" alt="after tourdates"></p>
+<p><img src="images/footerhtml.JPG" width="375px" alt="after tourdates"></p>
 
 
 <p><img src="images/hamburger1.JPG" width="375px" alt="after merch"></p>
