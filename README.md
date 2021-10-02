@@ -214,11 +214,7 @@ Timo: Responsiveness & Positionering<br>
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Meeting ging goed ik had geen vragen omdat op dat moment alles goed ging.
 
 </details>
 
@@ -232,11 +228,38 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Wat minder goed ging bij mij was het hamburger menu en het maken van de tweede section met de nieuwste single erin.
+Uiteindelijk is dit wel gelukt, maar hier had ik wel een beetje hulp bij nodig. 
+Hamburger menu:
+
+<p><img src="images/hamburger1.JPG" width="375px" alt="single section html"></p>
+
+
+
+<p><img src="images/singlecss.JPG" width="375px" alt="single css"></p>
+
+
+Eerste section
+
+
+<p><img src="images/singlehtml.JPG" width="375px" alt="html nav"></p>
+
+
+<p><img src="images/navhtml.JPG" width="375px" alt="html nav"></p>
+
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<p><img src="images/indexdesktop.JPG" width="375px" alt="eindresultaat dekstop"></p>
+
+
+<p><img src="images/indexmobile.JPG" width="375px" alt="eindresultaat mobile"></p>
+
+
+<p><img src="images/tourdesktop.JPG" width="375px" alt="eindresultaat tour dekstop"></p>
+
+
+<p><img src="images/tourmob.JPG" width="375px" alt="einresultaat tour mobile"></p>
 
 </details>
 

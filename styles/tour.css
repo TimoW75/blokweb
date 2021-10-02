@@ -32,6 +32,7 @@ header{
     position: relative; 
     border: none;
     background:var(--bgTransparent);
+    z-index: 1;
   }
 
   header button:nth-child(2) a{
@@ -41,12 +42,15 @@ header{
 
 
   header button:nth-child(2) img{
-    width: 20%;
+    width: 50%;
     position: relative;
     display: flex;
     z-index: 100;
     margin-top: -2em;
   }
+
+
+  @media (min-width:40em) { header button:nth-child(2) img{ width: 20%; } }
 
   header figure{
     display: none;

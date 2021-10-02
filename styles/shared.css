@@ -49,6 +49,7 @@ main{
 header{
   width: 100%;
   display: grid;
+  margin-top: 1em;
 }
 
 header figure img{
@@ -164,11 +165,13 @@ nav section {
   bottom: 0;
   transition:.5s;
   z-index:50;
-  top: 65%;
+  top: 85%;
   transform:translatex(-100%);
   gap: 1em;
   flex-direction: row;
 }
+
+
 nav section img{
   position: relative;
   width: 20px;
