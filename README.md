@@ -249,16 +249,16 @@ Eerste section
 
 
 ### Screenshot(s)
-
+Eindresultaat front page desktop
 <p><img src="images/indexdesktop.png" width="375px" alt="eindresultaat dekstop"></p>
 
-
+Eindresultaat front page mobile
 <p><img src="images/indexmobile.png" width="375px" alt="eindresultaat mobile"></p>
 
-
+Eindresultaat tour page desktop
 <p><img src="images/tourdekstop.png" width="375px" alt="eindresultaat tour dekstop"></p>
 
-
+Eindresultaat tour page mobile
 <p><img src="images/tourmob.png" width="375px" alt="einresultaat tour mobile"></p>
 
 </details>
