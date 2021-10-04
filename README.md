@@ -206,10 +206,10 @@ Ook heb ik gewerkt aan de footer. Hieronder ook een paar screenshots.
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-Joppe: Html structuur & Positionering<br>
+Joppe: Font-Face probleem en grid in footer<br>
 Maeren: Nette html & Css positionering<br>
-Leo: Animaties, Positioneren en Info opslaan<br>
-Timo: Responsiveness & Positionering<br>
+Leo: Variable veranderen met js<br>
+Timo: Responsiveness & Media Query's<br>
 
 
 ### Verslag van meeting
