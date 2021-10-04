@@ -274,8 +274,14 @@ Eindresultaat tour page mobile
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
-
+1. https://code-boxx.com/position-text-over-image-html/
+2. https://www.sitepoint.com/community/t/how-to-force-this-figcaption-element-to-respect-its-parents-width-boundaries/30025/5
+3. https://www.w3.org/WAI/tutorials/forms/grouping/
+4. https://stackoverflow.com/questions/52417889/setting-minimum-and-maximum-number-of-columns-using-css-grid
+5. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+6. https://stackoverflow.com/questions/4148499/how-to-style-a-checkbox-using-css
+7. https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome
+8. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
+9. https://stackoverflow.com/questions/22642436/how-to-center-navigation-bar-items-css
+10. https://css-tricks.com/the-checkbox-hack/
 </details>
