@@ -174,7 +174,7 @@ Met de narrator gaat de site prima.
 
 ## Voortgang 3 (week 4)
 
-<details open>
+<details>
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
@@ -224,7 +224,7 @@ Meeting ging goed ik had geen vragen omdat op dat moment alles goed ging.
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
